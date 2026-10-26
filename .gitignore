@@ -1,0 +1,13 @@
+# Archivos compilados de Java
+*.class
+/bin/
+
+# Configuración y metadatos locales del IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+*.iml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
