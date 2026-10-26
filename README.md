@@ -45,7 +45,8 @@ src/
     └── simple/
 ```
 
-Actualmente, están implementados ejemplos creacionales y estructurales:
+Actualmente, están implementados ejemplos creacionales, estructurales y de
+comportamiento:
 
 | Clasificación | Patrón | Ejemplo completo | Ejemplo simple |
 | --- | --- | --- | --- |
@@ -61,9 +62,20 @@ Actualmente, están implementados ejemplos creacionales y estructurales:
 | Estructural | Facade | — | Inicio de un cine en casa |
 | Estructural | Flyweight | — | Glifos compartidos |
 | Estructural | Proxy | — | Carga diferida de un documento |
+| Comportamiento | Chain of Responsibility | — | Filtros encadenados de mensajes |
+| Comportamiento | Command | — | Encender una luz |
+| Comportamiento | Interpreter | — | Evaluación de una suma |
+| Comportamiento | Iterator | — | Recorrido de una lista de tareas |
+| Comportamiento | Mediator | — | Comunicación en una sala de chat |
+| Comportamiento | Memento | — | Guardar y restaurar texto |
+| Comportamiento | Observer | — | Notificación de cambio de precio |
+| Comportamiento | State | — | Ciclo de un semáforo |
+| Comportamiento | Strategy | — | Cálculo de descuentos |
+| Comportamiento | Template Method | — | Preparación de té |
+| Comportamiento | Visitor | — | Cálculo de áreas de figuras |
 
-Los ejemplos completos estructurales y los ejemplos de comportamiento se
-incorporarán posteriormente.
+El guion (`—`) indica que todavía no se ha agregado el ejemplo completo para
+ese patrón.
 
 ## Ejecución
 
