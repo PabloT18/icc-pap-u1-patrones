@@ -22,8 +22,8 @@ clasificación habrá dos modalidades:
   niveles de abstracción para mostrar la estructura del patrón. Cuando
   corresponda, incluirán un diagrama UML del patrón.
 - **`simple/`:** ejemplos directos y fáciles de seguir, con menos niveles de
-  abstracción y un contexto distinto al de los ejemplos completos. Cada clase
-  se mantiene en su propio archivo.
+  abstracción y un contexto distinto al de los ejemplos completos. Los
+  participantes del patrón son clases de nivel superior, no clases anidadas.
 
 La estructura prevista es:
 
@@ -45,18 +45,25 @@ src/
     └── simple/
 ```
 
-Actualmente, los ejemplos implementados corresponden a patrones creacionales:
+Actualmente, están implementados ejemplos creacionales y estructurales:
 
-| Patrón | Ejemplo completo | Ejemplo simple |
-| --- | --- | --- |
-| Abstract Factory | Equipos y conversión de temperatura | Componentes de temas visuales |
-| Builder | Configuración de un plan de muestreo | Preparación de una pizza |
-| Factory Method | Importación de lecturas | Generación de saludos |
-| Prototype | Copia de perfiles de sensores | Copia de una plantilla de correo |
-| Singleton | Configuración de muestreo | Conexión a base de datos |
+| Clasificación | Patrón | Ejemplo completo | Ejemplo simple |
+| --- | --- | --- | --- |
+| Creacional | Abstract Factory | Equipos y conversión de temperatura | Componentes de temas visuales |
+| Creacional | Builder | Configuración de un plan de muestreo | Preparación de una pizza |
+| Creacional | Factory Method | Importación de lecturas | Generación de saludos |
+| Creacional | Prototype | Copia de perfiles de sensores | Copia de una plantilla de correo |
+| Creacional | Singleton | Configuración de muestreo | Conexión a base de datos |
+| Estructural | Adapter | — | Adaptación de un termómetro Fahrenheit |
+| Estructural | Bridge | — | Control remoto y televisor |
+| Estructural | Composite | — | Productos y combos de menú |
+| Estructural | Decorator | — | Café con leche |
+| Estructural | Facade | — | Inicio de un cine en casa |
+| Estructural | Flyweight | — | Glifos compartidos |
+| Estructural | Proxy | — | Carga diferida de un documento |
 
-Las carpetas para patrones estructurales y de comportamiento forman parte de la
-organización prevista del proyecto; sus ejemplos se agregarán posteriormente.
+Los ejemplos completos estructurales y los ejemplos de comportamiento se
+incorporarán posteriormente.
 
 ## Ejecución
 
