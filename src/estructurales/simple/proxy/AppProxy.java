@@ -14,38 +14,3 @@ public final class AppProxy {
         documento.mostrar();
     }
 }
-
-interface Documento {
-    void mostrar();
-}
-
-final class DocumentoReal implements Documento {
-    private final String archivo;
-
-    DocumentoReal(String archivo) {
-        this.archivo = archivo;
-        System.out.println("Cargando " + archivo);
-    }
-
-    @Override
-    public void mostrar() {
-        System.out.println("Mostrando " + archivo);
-    }
-}
-
-final class DocumentoProxy implements Documento {
-    private final String archivo;
-    private DocumentoReal documento;
-
-    DocumentoProxy(String archivo) {
-        this.archivo = archivo;
-    }
-
-    @Override
-    public void mostrar() {
-        if (documento == null) {
-            documento = new DocumentoReal(archivo);
-        }
-        documento.mostrar();
-    }
-}

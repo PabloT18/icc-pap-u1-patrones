@@ -12,25 +12,3 @@ public final class AppFacade {
         cine.iniciarPelicula();
     }
 }
-
-final class CineEnCasa {
-    private final Proyector proyector = new Proyector();
-    private final Reproductor reproductor = new Reproductor();
-
-    void iniciarPelicula() {
-        proyector.encender();
-        reproductor.reproducir("Mi película");
-    }
-}
-
-final class Proyector {
-    void encender() {
-        System.out.println("Proyector encendido");
-    }
-}
-
-final class Reproductor {
-    void reproducir(String pelicula) {
-        System.out.println("Reproduciendo: " + pelicula);
-    }
-}
